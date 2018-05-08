@@ -1,0 +1,153 @@
+/***********/
+/* GENERAL */
+/***********/
+body{
+    background-color: #292929;
+    color: #EEEEEE;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1em;
+    margin: 0 auto;
+} 
+
+
+nav{
+    display: inline-block;
+    position: relative;
+    top: 3em;
+    /* height: 4em; */
+    /* width: 40em; */
+} 
+    ul{ 
+        list-style: none;
+        display: table-cell;
+        vertical-align: middle;
+        height: 3em;
+        padding: 0;
+    } 
+        li{ 
+            margin: 3em 0 0 0;
+            display: table-cell;
+            /* background: blueviolet; */
+            vertical-align: middle;
+            width: 10em;
+            height: 2em;
+        }  
+            li:hover{                
+                background:#407daf ;
+            } 
+a{
+    color:white;
+    text-decoration: none;
+}
+    a:visited{   color:white;}
+    a:hover~li{   background-color: red}
+
+.section:first-of-type{
+    margin-top: 8em;
+} 
+
+.section{
+    margin: 0 auto;
+    padding: 0 3em 3em 3em;
+    width: 45em;
+    /* height: 50em; */
+    position: relative;
+    } 
+
+.section:nth-child(even){
+    background: #3c6382;
+} 
+.section:nth-child(odd){
+    background: #1c3244;
+} 
+ .section h3{
+    position: relative;
+    top: -0.7em;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+    font-size: 2.5em;
+ } 
+/**********/
+/* HEADER */
+/**********/
+header{
+    background-color: #3c6382;
+    text-align: center;
+} 
+
+    .header_titre{
+        text-shadow: 2px 2px 4px black;
+        margin:0 auto;
+        padding-top:0.5em;
+        font-size: 4rem;
+    } 
+
+    .header_stitre{
+        text-shadow: 2px 2px 4px black;
+        margin:0 auto;
+        padding-top:0.3em;
+        font-size: 1.5em;
+    } 
+
+    header_nav{
+        text-decoration: none;
+        background-color:#444444; 
+    } 
+/****************/
+/* QUI SUI JE ? */
+/****************/
+#qui figure{
+    display: table-cell;
+    width: 10em;
+    vertical-align: middle;
+} 
+#qui img{ 
+    width: 100%;
+    border-radius: 50%;
+ }
+
+ #qui .desc{
+    display: table-cell;
+    padding-left: 3em;
+    vertical-align: middle;
+}  
+ /****************/
+/* Formations*/
+/****************/
+
+/****************/
+/* Expèriences ? */
+/****************/
+
+/****************/
+/* Réalisations? */
+/****************/
+/* FORMULAIRE */
+form {
+			padding: 20px;
+            /* background: #424242; */
+            width: 45em;
+}
+    input, textarea {
+        width: 20em;
+        padding: 4px;
+        vertical-align: top;
+        background: #f2f2f2;
+        border: 0 none;
+        -moz-box-shadow: -1px -1px 0 #ddd, -1px -1px 0 #ddd inset;
+        -webkit-box-shadow: -1px -1px 0 #ddd, -1px -1px 0 #ddd inset;
+        box-shadow: -1px -1px 0 #ddd, -1px -1px 0 #ddd inset;
+    }
+    #sujet { width: 250px; }
+    textarea {
+        width: 300px;
+        height: 5em;
+    }
+    label {
+        display: inline-block;
+        width: 5em;
+        margin-right: 20px;
+        vertical-align: top;
+        font-size: 1em;
+        text-align: right;
+    }
