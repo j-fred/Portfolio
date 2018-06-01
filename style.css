@@ -2,25 +2,18 @@
 /* GENERAL */
 /***********/
 body{
-    /* background-color: #292929; */
+    background-color: #292929;
     color: #EEEEEE;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 1em;
     margin: 0 auto;
 } 
 
-.pages{
-    display: flex;
-    flex-wrap: nowrap;
-    width: 600%;
-    min-height: 100%;
-    /* padding-top: 30px; */
-} 
 
 nav{
     display: inline-block;
     position: relative;
-    top: 1em;
+    top: 3em;
     /* height: 4em; */
     /* width: 40em; */
 } 
@@ -49,23 +42,23 @@ a{
     a:visited{   color:white;}
     a:hover~li{   background-color: red}
 
-/* .section:first-of-type{
+.section:first-of-type{
     margin-top: 8em;
-}  */
+} 
 
 .section{
     margin: 0 auto;
     padding: 0 3em 3em 3em;
-    width: 100%;
+    width: 45em;
     /* height: 50em; */
-    /* position: relative; */
+    position: relative;
     } 
 
 .section:nth-child(even){
-    background: #999;
+    background: #3c6382;
 } 
 .section:nth-child(odd){
-    background: #AAA;
+    background: #1c3244;
 } 
  .section h3{
     position: relative;
