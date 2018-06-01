@@ -1,0 +1,68 @@
+/* System Fonts as used by GitHub */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+header{
+    font-family: 'Kalam', cursive;
+    min-height: 100vh;
+}
+.lineTop{
+    width: 100%;
+    height: 5px;
+    background-color: rgb(166, 255, 0);
+}
+.apropos{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) repeat center top, url(https://picsum.photos/1980?image=6) no-repeat center top;
+    height: 500px; 
+    background-attachment: fixed;
+    background-size: cover;
+    color:white;
+}
+.competences{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) repeat center top;
+    height: 500px; 
+    background-attachment: fixed;
+    background-size: cover;
+    color:white;
+}
+.experiences{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) no-repeat center top, url(https://picsum.photos/1980?image=50) no-repeat center top;
+    height: 500px; 
+    background-attachment: fixed;
+    background-size: cover;
+    color:white;
+}
+.formations{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) no-repeat center top;
+    height: 500px; 
+    /* background-attachment: fixed;
+    background-size: cover; */
+    color:white;
+}
+.realisations{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) no-repeat center top, url(https://picsum.photos/1980?image=16) no-repeat center top;
+    height: 500px; 
+    background-attachment: fixed;
+    background-size: cover;
+    color:white;
+}
+.contact{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) no-repeat center top;
+    height: 500px; 
+    background-attachment: fixed;
+    background-size: cover;
+    color:white;
+}
+
+.section{
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.apropos_img{
+    width: 200px;
+}
+
+.images img{
+    width: 80px;
+}

@@ -1,0 +1,114 @@
+/***********/
+/* GENERAL */
+/***********/
+body{
+    margin:0px;
+    background-color: #292929;
+    color: #EEEEEE;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1em;
+} 
+
+ul{ 
+    list-style: none;
+    display: table-cell;
+    height: 2em;
+    line-height: 2em;
+} 
+nav{
+    display: inline-block;
+    width: 40em;
+} 
+li{ 
+    margin: 0 2em;
+}  
+a{
+    color:white;
+    text-decoration: none;
+}
+
+a:visited{   color:white;}
+a:hover~li{   background-color: red}
+
+.section{
+    margin: 10em auto;
+    width: 900px;
+    height: 50em;
+}
+/**********/
+/* HEADER */
+/**********/
+header{
+    background-color: #3c6382;
+    height: 200px;
+    text-align: center;
+} 
+
+header ul{   
+    margin-top: 1.7em;
+    box-shadow: 0px 0px 2px black ;
+} 
+.header_titre{
+    text-shadow: 2px 2px 4px black;
+    margin:0 auto;
+    padding-top:0.5em;
+    font-size: 4rem;
+} 
+
+.header_stitre{
+    text-shadow: 2px 2px 4px black;
+    margin:0 auto;
+    padding-top:0.3em;
+    font-size: 1.5em;
+} 
+
+header_nav{
+    text-decoration: none;
+    background-color:#444444; 
+} 
+
+
+/****************/
+/* QUI SUI JE ? */
+/****************/
+img{ 
+   /* width: 15em;*/
+    border-radius: 50%;
+}
+
+
+
+#img{
+    width: 5em;
+} 
+
+
+/***********/
+/* CONTACT */
+/***********/
+#contact{
+    background-color: #3c6382;
+}  
+form {
+    /* Uniquement centrer le formulaire sur la page */
+    margin: 5em auto;
+    width: 500px;
+    /* Encadré pour voir les limites du formulaire */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+  
+
+/**      **/
+/* FOOTER */
+/**      **/
+footer{
+    text-align: center;
+    background-color:#222;
+    height: 3em;
+} 
+
+footer_a{
+    color: whitesmoke;
+} 
