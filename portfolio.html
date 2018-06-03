@@ -15,46 +15,49 @@
 
 <body>
     <div class="lineTop"></div>
-    <nav id="ma-navbar" class="navbar navbar-expand-lg navbar-dark bg-dark ma-navbar">
-        <a class="navbar-brand" href="#">&lt; JFG /&gt;</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#maNavbar" aria-controls="maNavbar" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end " id="maNavbar">
-            <ul class="navbar-nav list-group">
-                <li class="nav-item">
-                    <a class="nav-link text-white btn" href="#apropos">Qui suis-je?</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white btn" href="#competences">Formations</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white btn" href="#experiences">Expèriences</a>
-                </li>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white btn" href="#formations">Formations</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white btn" href="#realisations">Réalisations</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white btn" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <main id="main" data-spy="scroll" data-target="#ma-navbar" data-offset="20px">
-        <header class="container-fluid d-flex flex-column mb-0 justify-content-center align-items-center">
-            <h1 class="display-3">Jean-Fred GLAMPORT</h1>
-            <h2 class="display-5">Développeur web junior</h2>
+    <main id="main" data-target="#menu" data-offset="20px">
+        <header class="container-fluid d-flex flex-column mb-0 justify-content-center align-items-center  text-white">
+            <h1 class="display-3">&lt; Jean-Fred GLAMPORT /&gt;</h1>
+            <h2 class="display-5">Développeur Web</h2>
+
         </header>
+        <nav id="menu" data-spy="scroll" class="navbar navbar-expand-lg navbar-dark bg-dark ma-navbar">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">&lt; JFG /&gt;</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#maNavbar" aria-controls="maNavbar" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end " id="maNavbar">
+                <ul class="navbar-nav list-group">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#apropos">Qui suis-je?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white " href="#competences">Formations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white " href="#experiences">Expèriences</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white " href="#formations">Formations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white " href="#realisations">Réalisations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white " href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         <!--Qui suis-je ?-->
         <section id="apropos" class="container-fluid text-center section apropos">
             <div class="container">
                 <div class="row">
-                    <h1 class="col-md-12 display-3 font-kalam mb-5 py-5">A propos de moi</h1>
+                    <h1 class="col-md-12 display-3 font-kalam mb-5 py-5">A propos</h1>
                     <figure class="col-md-4 apropos_img">
                         <img src="img_avatar.png" alt="" class="img-thumbnail rounded-circle" />
                     </figure>
@@ -65,9 +68,10 @@
                 </div>
             </div>
         </section>
-        <!--Compétences -->
+
+        <!--Coompétences -->
         <section id="competences" class="container-fluid text-center section competences">
-            <h1 class="display-3 font-kalam mb-5 py-5">Compétences</h1>
+            <h1 class="display-3 font-kalam my-0 py-5">Compétences</h1>
             <article class="container font-kalam">
                 <figure class="text-center images">
                     <figcaption class="">Front-end</figcaption>
@@ -91,23 +95,24 @@
 
         <!--Expériences -->
         <section id="experiences" class="container-fluid text-center section experiences">
-            <h1 class="display-3 font-kalam mb-5 py-5">Expériences</h1>
+            <h1 class="display-3 font-kalam my-0 py-5">Expériences</h1>
         </section>
         </section>
 
         <!--Formations -->
         <section id="formations" class="container-fluid text-center section formations">
-            <h1 class="display-3 font-kalam mb-5 py-5">Formations</h1>
+            <h1 class="display-3 font-kalam my-0 py-5">Formations</h1>
         </section>
 
         <!--Réalisations -->
         <section id="realisations" class="container-fluid text-center section realisations">
-            <h1 class="display-3 font-kalam mb-5 py-5">Réalisations</h1>
+            <h1 class="display-3 font-kalam my-0 py-5">Réalisations</h1>
         </section>
 
         <!--Contact -->
-        <section id="contact" class="container-fluidtext-center section contact">
-            <form>
+        <section id="contact" class="container-fluid text-center section contact">
+            <h1 class="display-3 font-kalam my-0 py-5">Contact</h1>
+            <form class="container px-4">
                 <div class="form-group">
                     <label for="prenom">Prénom</label>
                     <input type="text" id="prenom" class="form-control">
@@ -153,6 +158,7 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
