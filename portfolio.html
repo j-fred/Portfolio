@@ -13,7 +13,7 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
-<body>
+<body data-spy="scroll">
     <div class="lineTop"></div>
     <main id="main" data-target="#menu" data-offset="20px">
         <header class="container-fluid d-flex flex-column mb-0 justify-content-center align-items-center text-white">
@@ -245,10 +245,9 @@
 
                 </svg>
             </h2>
-
-
+            <h4>#PAPA #34ans #Dev #Foot #Trail #Danse #Photographie</h4>
         </header>
-        <nav id="menu" data-spy="scroll" class="navbar navbar-expand-lg navbar-dark bg-dark ma-navbar">
+        <nav id="menu" class="navbar navbar-expand-lg navbar-dark bg-dark ma-navbar">
             <div class="navbar-header">
                 <a class="navbar-brand" href="#">&lt; JFG /&gt;</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#maNavbar" aria-controls="maNavbar" aria-expanded="false"
@@ -258,24 +257,24 @@
             </div>
             <div class="collapse navbar-collapse justify-content-end " id="maNavbar">
                 <ul class="navbar-nav list-group">
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#apropos">Qui suis-je?</a>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link text-white  btn-dark" href="#apropos">Qui suis-je?</a>
+                    </li> -->
+                    <li class="nav-item menu-li">
+                        <a class="nav-link " href="#competences">Compétences</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white " href="#competences">Compétences</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white " href="#experiences">Expériences</a>
+                    <li class="nav-item menu-li">
+                        <a class="nav-link n" href="#experiences">Expériences</a>
                     </li>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white " href="#formations">Formations</a>
+                    <li class="nav-item menu-li">
+                        <a class="nav-link  " href="#formations">Formations</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white " href="#realisations">Réalisations</a>
+                    <li class="nav-item menu-li">
+                        <a class="nav-link  " href="#realisations">Réalisations</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white " href="#contact">Contact</a>
+                    <li class="nav-item menu-li">
+                        <a class="nav-link  " href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -303,23 +302,35 @@
         <!--Coompétences -->
         <section id="competences" class="container-fluid text-center section competences pb-5 bg-white">
             <h1 class="display-3 font-kalam my-0 py-5">Compétences</h1>
-            <article class=" container font-kalam">
-                <figure class="text-center images">
-                    <figcaption class="">Front-end</figcaption>
-                    <img class=" img-thumbnail m-3" src="img/logo/html5.png" alt="HTML5">
-                    <img class=" img-thumbnail m-3" src="img/logo/css3.png" alt=CSS3 "">
-                    <img class=" img-thumbnail m-3" src="img/logo/bootstrap.png" alt="bootstrap">
-                    <img class=" img-thumbnail m-3" src="img/logo/js.png" alt="Javascript">
+            <article class="container ">
+                <figure class="d-flex justify-content-center align-items-center images">
+                    <small class="text-left justify-self-center">Front-end</small>
+                    <img class="  m-3" src="img/logo/html5.png" alt="HTML5">
+                    <img class="  m-3" src="img/logo/css3.png" alt=CSS3 "">
+                    <img class="  m-3" src="img/logo/bootstrap.png" alt="bootstrap">
+                    <img class="  m-3" src="img/logo/js.png" alt="Javascript">
                 </figure>
-                <figure class=" images">
-                    <figcaption>Back-end</figcaption>
-                    <img class=" rounded-circle img-thumbnail m-3" src="img/logo/nodejs.png" alt="Node.js">
-                    <img class="  rounded-circle img-thumbnail m-3" src="img/logo/php.png" alt="PHP">
+                <figure class="d-flex justify-content-center align-items-center images">
+                    <small>Back-end</small>
+                    <img class="  m-3" src="img/logo/nodejs.png" alt="Node.js">
+                    <img class="  m-3 " src="img/logo/php-2.png" alt="PHP">
+                    <img class="  m-3 " src="img/logo/express.png" alt="Expresse">
                 </figure>
-                <figure class=" images">
-                    <figcaption>Bases de données</figcaption>
-                    <img class="  rounded-circle img-thumbnail m-3" src="img/logo/mongodb.png" alt="MongoDb">
-                    <img class="  rounded-circle img-thumbnail m-3" src="img/logo/mysql.png" alt="mySQL">
+                <figure class="d-flex justify-content-center align-items-center images">
+                    <small>BDD</small>
+                    <img class="  m-3" src="img/logo/mongodb.png" alt="MongoDb">
+                    <img class="  m-3" src="img/logo/mysql.png" alt="mySQL">
+                </figure>
+                <figure class="d-flex justify-content-center align-items-center images">
+                    <small>Systèmes</small>
+                    <img class="  m-3" src="img/logo/windows.png" alt="Windows">
+                    <img class="  m-3" src="img/logo/ubuntu.png" alt="Linux">
+                </figure>
+                <figure class="d-flex justify-content-center align-items-center images">
+                    <small>Logiciel graphique</small>
+                    <img class="  m-3" src="img/logo/ps.jpg" alt="Photoshop">
+                    <img class="  m-3" src="img/logo/ai.png" alt="Illustrator">
+                    <img class="  m-3" src="img/logo/an.png" alt="Animate CC">
                 </figure>
             </article>
         </section>
