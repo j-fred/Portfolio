@@ -71,6 +71,7 @@ body {
 }
 
 header {
+    background: url(../img/pattern.png) repeat center top, url(../img/computer-1185569_1920.jpg) no-repeat center top;
     font-family: 'Kalam', cursive;
     background: #000;
     background-size: cover;
@@ -202,7 +203,7 @@ h1 {
 }
 
 .timeline .event:before {
-    left: -217.5px;
+    left: -250px;
     color: rgba(255, 255, 255, 0.4);
     content: attr(data-date);
     text-align: right;
