@@ -48,6 +48,29 @@ body {
     }
 }
 
+@keyframes arrow {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.arrow {
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 3rem;
+    opacity: 1;
+    animation: arrow 1s ease-in-out infinite alternate-reverse;
+}
+
+.arrow:hover {
+    color: rgba(255, 255, 255, 1);
+    transform: translateY(10px);
+    transition: all 500ms ease-in;
+}
+
 .font-kalam {
     font-family: 'Kalam', cursive;
 }
@@ -282,15 +305,12 @@ h1 {
 }
 
 .section:before {
-    content: "";
-    position: absolute
-    top: 100%;
+    content: " ";
+    position: absolute top: 100%;
     left: -50%;
     width: 100%;
     height: 100%;
-    background: #000
-    transform-origin : right;
-    border-top: 5px solid rgb(103, 182, 0);
+    background: #000 transform-origin: right;
 }
 
 .section h1 {
@@ -321,4 +341,54 @@ h1 {
 .php {
     background-color: #fff;
     filter: hue-rotate(1)
+}
+
+.mail {
+    color: #FFF;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.1s ease-out;
+}
+
+.mail:hover {
+    text-decoration: none;
+    transform: scale(1.1) rotateZ(-10deg);
+}
+
+.mail i {
+    font-size: 10rem;
+    color: rgb(62, 81, 114);
+    transition: 1s;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid img {
+    border: 0px solid #ccc;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    max-width: 90%; 
+}
+
+.sousgrid {
+    position: relative;
+    overflow: hidden;
+}
+.sousgrid p {
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    width: 90%;
+    height: 200px;
+    bottom: -50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    transition: all 0.5s cubic-bezier(0.26, 1.1, 0.72, 1.08);
+}
+.sousgrid:hover p {
+    transform: translate(-50%,-50%);
 }
