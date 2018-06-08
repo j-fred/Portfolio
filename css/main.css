@@ -157,7 +157,7 @@ header {
     max-width: 600px;
 }
 .experiences {
-    background: url(../img/pattern.png) repeat center to, url(https://picsum.photos/1980?image=50) no-repeat center top;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)) repeat center top,url(../img/computer-1185569_1920.jpg) repeat center top;
     background-attachment: fixed;
     background-size: cover;
     color: white;
@@ -245,6 +245,10 @@ h1 {
     border: none;
 }
 
+small{
+    color: #FFF;
+}
+
 .timeline .event:before,
 .timeline .event:after {
     position: absolute;
@@ -254,7 +258,7 @@ h1 {
 
 .timeline .event:before {
     left: -250px;
-    color: rgba(255, 255, 255, 0.4);
+    /* color: rgba(255, 255, 255, 0.4); */
     content: attr(data-date);
     text-align: right;
     font-weight: 100;
