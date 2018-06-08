@@ -115,7 +115,7 @@ body {
     /* Mise en forme */
     width: 100%;
     height: 50px;
-    border-bottom: 2px solid rgb(103, 182, 0);
+    /* border-bottom: 2px solid rgb(103, 182, 0); */
 }
 
 header {
@@ -147,12 +147,15 @@ header {
 }
 
 .competences {
-    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)) repeat center top;
+    /* background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1)) repeat center top; */
+    background: #2c3e50;
     background-attachment: fixed;
     background-size: cover;
     color: white;
 }
-
+.competences_art{
+    max-width: 600px;
+}
 .experiences {
     background: url(../img/pattern.png) repeat center to, url(https://picsum.photos/1980?image=50) no-repeat center top;
     background-attachment: fixed;
@@ -274,6 +277,7 @@ h1 {
 
 .formations {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) no-repeat center top;
+    /* background: #95a5a6; */
     /* background-attachment: fixed;
     background-size: cover; */
     color: white;
@@ -290,11 +294,26 @@ h1 {
     color: white;
 }
 
+.real {
+    max-width: 1000px;
+    height: 600px;
+}
+
+.carousel-caption.d-none.d-md-block {
+    background: rgba(0, 0, 0, 0.8);
+}
+
 .contact {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) no-repeat center top;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) no-repeat center top; */
+    background: #FFF;
     background-attachment: fixed;
     background-size: cover;
     color: white;
+}
+
+.fiche-contact {
+    background: #000;
+    min-height: 400px;
 }
 
 .section {
@@ -319,23 +338,27 @@ h1 {
 
 .images {
     overflow: hidden;
-    min-height: 200px;
+    /* min-height: 200px; */
     font-size: 2rem;
     ;
 }
 
 .images img {
-    width: 100px;
-    height: auto;
-    padding: 10px;
+    width: 80px;
+    height: 100%;
+    /* padding: 10px; */
     transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
     filter: saturate(0);
 }
 
 .images img:hover {
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
     filter: saturate(1);
     /* border: 5px #CCC solid; */
+}
+
+.figure h4 {
+    width: 100px;
 }
 
 .php {
@@ -372,23 +395,34 @@ h1 {
     border: 0px solid #ccc;
     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
     margin: 10px;
-    max-width: 90%; 
+    max-width: 90%;
 }
 
 .sousgrid {
     position: relative;
+    width: 300px;
+    height: 300px;
     overflow: hidden;
 }
+
+.sousgrid img {
+    height: 100%;
+    width: auto;
+}
+
 .sousgrid p {
-    background: rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
     position: absolute;
     width: 90%;
     height: 200px;
     bottom: -50%;
     left: 50%;
-    transform: translate(-50%,50%);
+    transform: translate(-50%, 50%);
     transition: all 0.5s cubic-bezier(0.26, 1.1, 0.72, 1.08);
 }
+
 .sousgrid:hover p {
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
+
+/** gallery */
