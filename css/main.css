@@ -18,18 +18,6 @@ body {
     text-align: center;
 }
 
-@media all and (max-width: 600px) {
-    .svg-jfg {
-        width: 100%;
-    }
-    .svg-dev {
-        width: 50%;
-    }
-    .hashtag {
-        font-size: 1rem;
-    }
-}
-
 .svg-jfg path {
     stroke: #FFF;
     fill: #fff;
@@ -451,3 +439,23 @@ small {
 }
 
 /** gallery */
+
+
+@media all and (max-width: 600px) {
+    .svg-jfg {
+        width: 100%;
+    }
+    .svg-dev {
+        width: 50%;
+    }
+    .hashtag {
+        font-size: 1rem;
+    }
+}
+
+@media all and (max-width: 991px) {
+
+    .timeline{
+        max-width: 100%;
+    } 
+}
