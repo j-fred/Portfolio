@@ -13,6 +13,23 @@ body {
     width: 20%;
 }
 
+.hashtag {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media all and (max-width: 600px) {
+    .svg-jfg {
+        width: 100%;
+    }
+    .svg-dev {
+        width: 50%;
+    }
+    .hashtag {
+        font-size: 1rem;
+    }
+}
+
 .svg-jfg path {
     stroke: #FFF;
     fill: #fff;
@@ -71,9 +88,9 @@ body {
     transition: all 500ms ease-in;
 }
 
-.font-kalam {
+/* .font-kalam {
     font-family: 'Kalam', cursive;
-}
+} */
 
 .ma-navbar,
 .lineTop {
@@ -114,7 +131,7 @@ body {
     top: 0;
     /* Mise en forme */
     width: 100%;
-    height: 50px;
+    /* height: 50px; */
     /* border-bottom: 2px solid rgb(103, 182, 0); */
 }
 
@@ -153,11 +170,13 @@ header {
     background-size: cover;
     color: white;
 }
-.competences_art{
+
+.competences_art {
     max-width: 600px;
 }
+
 .experiences {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)) repeat center top,url(../img/computer-1185569_1920.jpg) repeat center top;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)) repeat center top, url(../img/computer-1185569_1920.jpg) repeat center top;
     background-attachment: fixed;
     background-size: cover;
     color: white;
@@ -227,8 +246,8 @@ h1 {
 .timeline h1,
 .timeline h2,
 .timeline h3 {
-    letter-spacing: 1.5px;
-    font-weight: 100;
+    /* letter-spacing: 1.5px;
+    font-weight: 100; */
     font-size: 1.4em;
 }
 
@@ -245,7 +264,7 @@ h1 {
     border: none;
 }
 
-small{
+small {
     color: #FFF;
 }
 
@@ -257,10 +276,10 @@ small{
 }
 
 .timeline .event:before {
-    left: -250px;
+    top: -30px;
     /* color: rgba(255, 255, 255, 0.4); */
     content: attr(data-date);
-    text-align: right;
+    /* text-align: right; */
     font-weight: 100;
     font-size: 0.9em;
     min-width: 120px;
@@ -324,21 +343,22 @@ small{
     position: relative;
     margin: 0 auto;
     min-height: 500px;
-    border-top: 5px solid rgb(103, 182, 0);
+    /* border-top: 5px solid rgb(103, 182, 0); */
 }
 
-.section:before {
+/* .section:before {
     content: " ";
     position: absolute;
     top: 100%;
     left: -50%;
     width: 100%;
     height: 100%;
-    background: #000 transform-origin: right;
-}
+    background: #000 ;
+    transform-origin: right;
+} */
 
 .section h1 {
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
 .images {
@@ -353,12 +373,12 @@ small{
     height: 100%;
     /* padding: 10px; */
     transition: all 1s cubic-bezier(0.165, 0.84, 0.44, 1);
-    filter: saturate(0);
+    filter: saturate(1) brightness(1);
 }
 
 .images img:hover {
     transform: scale(1.1);
-    filter: saturate(1);
+    filter: saturate(0.5) brightness(0.8);
     /* border: 5px #CCC solid; */
 }
 

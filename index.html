@@ -247,13 +247,13 @@
 
                 </svg>
             </h2>
-            <h4>#PAPA #34ans #Dev #Foot #Trail #Danse #Photographie</h4>
+            <h4 class="hashtag">#PAPA #34ans #Dev #Foot #Trail #Danse #Photographie</h4>
             <a class="arrow" href="#menu">
                 <i class="far fa-hand-point-down"></i>
             </a>
         </header>
-        <nav id="menu" class="navbar navbar-expand-lg navbar-dark bg-dark ma-navbar">
-            <div class="navbar-header">
+        <nav id="menu" class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="navbar-header w-100 nav justify-content-between">
                 <a class="navbar-brand" href="#">&lt; JFG /&gt;</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#maNavbar" aria-controls="maNavbar" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -261,7 +261,7 @@
                 </button>
             </div>
             <div class="collapse navbar-collapse justify-content-end " id="maNavbar">
-                <ul class="navbar-nav list-group">
+                <ul class="navbar-nav list-group text-right text-white">
                     <!-- <li class="nav-item">
                         <a class="nav-link text-white  btn-dark" href="#apropos">Qui suis-je?</a>
                     </li> -->
@@ -269,7 +269,7 @@
                         <a class="nav-link " href="#competences">Compétences</a>
                     </li>
                     <li class="nav-item menu-li">
-                        <a class="nav-link n" href="#experiences">Expériences</a>
+                        <a class="nav-link " href="#experiences">Expériences</a>
                     </li>
                     </li>
                     <li class="nav-item menu-li">
@@ -288,7 +288,7 @@
         <!-- <section id="apropos" class="container-fluid text-center section apropos pb-5">
             <div class="container">
                 <div class="row justify-content-center">
-                    <h1 class="col-md-12 display-3 font-kalam mb-5 py-5">A propos</h1>
+                    <h1 class="col-md-12 display-4 font-kalam mb-5 py-5">A propos</h1>
                     <figure class="col-md-4 apropos_img">
                         <img src="img_avatar.png" alt="" class="img-thumbnail rounded-circle" />
                     </figure>
@@ -306,43 +306,103 @@
 
         <!--Coompétences -->
         <section id="competences" class="container-fluid text-center section competences pb-5">
-            <h1 class="display-3 font-kalam my-0 py-5">Compétences</h1>
+            <h1 class="display-4 font-kalam my-0 py-5">Compétences</h1>
             <article class="competences_art mx-auto ">
                 <figure class="row align-items-center images">
-                    <h4 class="col-md-4 text-right lead">Front-end</h4>
-                    <img class="col-md-2 " src="img/logo/html5.png" alt="HTML5">
-                    <img class="col-md-2 " src="img/logo/css3.png" alt=CSS3 "">
-                    <img class="col-md-2 " src="img/logo/bootstrap.png" alt="bootstrap">
-                    <img class="col-md-2 " src="img/logo/js.png" alt="Javascript">
+                    <h4 class="col-md-4 text-md-right  lead">Front-end</h4>
+                    <img class="col-md-2" src="img/logo/html5.png" alt="HTML5">
+                    <img class="col-md-2" src="img/logo/css3.png" alt=CSS3 "">
+                    <img class="col-md-2" src="img/logo/bootstrap.png" alt="bootstrap">
+                    <img class="col-md-2" src="img/logo/js.png" alt="Javascript">
                 </figure>
                 <figure class="row align-items-center images">
-                    <h4 class="col-md-4 text-right lead">Back-end</h4>
+                    <h4 class="col-md-4 text-md-right  lead">Back-end</h4>
                     <img class=" col-md-2" src="img/logo/nodejs.png" alt="Node.js">
-                    <img class=" col-md-2 " src="img/logo/php-2.png" alt="PHP">
-                    <img class=" col-md-2 " src="img/logo/express.png" alt="Expresse">
+                    <img class=" col-md-2" src="img/logo/php-2.png" alt="PHP">
+                    <img class=" col-md-2" src="img/logo/express-1.png" alt="Express">
                 </figure>
                 <figure class="row align-items-center images">
-                    <h4 class="col-md-4 text-right lead">BDD</h4>
+                    <h4 class="col-md-4 text-md-right  lead">BDD</h4>
                     <img class=" col-md-2" src="img/logo/mongodb.png" alt="MongoDb">
                     <img class=" col-md-2" src="img/logo/mysql.png" alt="mySQL">
                 </figure>
-                <figure class="row align-items-center images">
-                    <h4 class="col-md-4 text-right lead">Systèmes</h4>
+                <figure class="row align-items-center  images">
+                    <h4 class="col-md-4 text-md-right  lead">Systèmes</h4>
                     <img class=" col-md-2" src="img/logo/windows.png" alt="Windows">
                     <img class=" col-md-2" src="img/logo/ubuntu.png" alt="Linux">
                 </figure>
+                <figure class="row align-items-center  images">
+                    <h4 class="col-md-4 text-md-right  lead">Outils</h4>
+                    <img class=" col-md-2" src="img/logo/git2.png" alt="git">
+                    <img class=" col-md-2" src="img/logo/vscode.png" alt="vs code">
+                </figure>
                 <figure class="row align-items-center images">
-                    <h4 class="col-md-4 text-right lead">Logiciel graphique</h4>
+                    <h4 class="col-md-4 text-md-right  lead">Logiciels Graphiques</h4>
                     <img class=" col-md-2" src="img/logo/ps.jpg" alt="Photoshop">
                     <img class=" col-md-2" src="img/logo/ai.png" alt="Illustrator">
                     <img class=" col-md-2" src="img/logo/an.png" alt="Animate CC">
                 </figure>
             </article>
         </section>
-
+   <!--Formations -->
+   <section id="formations" class="container-fluid text-center section formations pb-5">
+        <h1 class="display-4 font-kalam my-0 py-5">Formations</h1>
+        <div class="container">
+            <div class="row justify-content-center">
+            <div class="col-md-4 mx-md-5 bg-secondary mb-5">
+                <div class=" text-md-center card-header ">2018 </div>
+                <div class=" text-md-center card-body"> POEC Developpeur Web,
+                    <br>
+                    <a class="" href="https://simplonreunion.co/">
+                        <small>Simplon Réunion</small>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 mx-md-5 bg-secondary mb-5">
+                <div class=" text-md-center card-header ">2006</div>
+                <div class=" text-md-center card-body">D.U. Concepteur, Réalisateur, Chef de projet Multimédia Bac+4,
+                    <br>
+                    <a href="http://www.iloi.fr">
+                        <small>ILOI</small>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 mx-md-5 bg-secondary mb-5">
+                <div class="  text-md-center card-header ">2005</div>
+                <div class=" text-md-center card-body">D.U. Concepteur, Réalisateur, Chef de projet Multimédia Bac+4,
+                    <br>
+                    <a href="http://www.iloi.fr">
+                        <small>ILOI</small>
+                    </a> /
+                    <a href="http://www.univ-paris8.fr/">
+                        <small>PARIS 8</small>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 mx-md-5 bg-secondary mb-5">
+                <div class="  text-md-center card-header ">2004</div>
+                <div class=" text-md-center card-body">BTS Electronique,
+                    <br>
+                    <a href="http://www.iloi.fr">
+                        <small>Lycée de Trois-bassins</small>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4 mx-md-5 bg-secondary mb-5">
+                <div class=" text-md-center card-header ">2001</div>
+                <div class=" text-md-center card-body">BAC STI option génie Electronique,
+                    <br>
+                    <a href="http://www.iloi.fr">
+                        <small>Lycée de Trois-bassins</small>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
         <!--Expériences -->
         <section id="experiences" class="container-fluid text-center section experiences text-dark pb-5">
-            <h1 class="display-3 font-kalam my-0 py-5">Expériences</h1>
+            <h1 class="display-4 font-kalam my-0 py-5">Expériences</h1>
             <div id="content">
 
                 <ul class="timeline">
@@ -423,64 +483,11 @@
             </div> -->
         </section>
 
-        <!--Formations -->
-        <section id="formations" class="container-fluid text-center section formations pb-5">
-            <h1 class="display-3 font-kalam my-0 py-5">Formations</h1>
-            <div class="container">
-                <div class="mx-auto mx-5">
-                    <div class=" text-md-center card-header ">2018 </div>
-                    <div class=" text-md-center card-body"> POEC Developpeur Web,
-                        <br>
-                        <a class="" href="https://simplonreunion.co/">
-                            <small>Simplon Réunion</small>
-                        </a>
-                    </div>
-                </div>
-                <div class="mx-auto mx-5">
-                    <div class=" text-md-center card-header ">2006</div>
-                    <div class=" text-md-center card-body">D.U. Concepteur, Réalisateur, Chef de projet Multimédia Bac+4,
-                        <br>
-                        <a href="http://www.iloi.fr">
-                            <small>ILOI</small>
-                        </a>
-                    </div>
-                </div>
-                <div class="mx-auto mx-5">
-                    <div class="  text-md-center card-header ">2005</div>
-                    <div class=" text-md-center card-body">D.U. Concepteur, Réalisateur, Chef de projet Multimédia Bac+4,
-                        <br>
-                        <a href="http://www.iloi.fr">
-                            <small>ILOI</small>
-                        </a> /
-                        <a href="http://www.univ-paris8.fr/">
-                            <small>PARIS 8</small>
-                        </a>
-                    </div>
-                </div>
-                <div class="mx-auto mx-5">
-                    <div class="  text-md-center card-header ">2004</div>
-                    <div class=" text-md-center card-body">BTS Electronique,
-                        <br>
-                        <a href="http://www.iloi.fr">
-                            <small>Lycée de Trois-bassins</small>
-                        </a>
-                    </div>
-                </div>
-                <div class="mx-auto mx-5">
-                    <div class=" text-md-center card-header ">2001</div>
-                    <div class=" text-md-center card-body">BAC STI option génie Electronique,
-                        <br>
-                        <a href="http://www.iloi.fr">
-                            <small>Lycée de Trois-bassins</small>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
+     
 
         <!--Réalisations -->
         <section id="realisations" class="container-fluid text-center section realisations">
-            <h1 class="display-3 font-kalam my-0 py-5">Réalisations</h1>
+            <h1 class="display-4 font-kalam my-0 py-5">Réalisations</h1>
             <div id="carouselExampleIndicators" class="carousel slide mx-auto real" data-ride="carousel">
                 <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
@@ -559,7 +566,7 @@
 
         <!--Contact -->
         <section id="contact" class="container-fluid d-flex flex-column justify-content-center align-items-center text-white section contact">
-            <!-- <h1 class="display-3 font-kalam my-0 py-5">Contact</h1> -->
+            <!-- <h1 class="display-4 font-kalam my-0 py-5">Contact</h1> -->
             <div class="text-center">
                 <a href="mailto:jfglamportgmailcom" class="mail font-kalam">
                     <i class="fas fa-at col-12 mail"></i>
